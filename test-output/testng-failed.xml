@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AMAZON]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.amazonV1.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.amazonV1.TestCases.TC_AddProductTOcartTest_007">
+        <methods>
+          <include name="sortproduct"/>
+          <include name="setup"/>
+          <include name="addingtocart"/>
+        </methods>
+      </class> <!-- com.amazonV1.TestCases.TC_AddProductTOcartTest_007 -->
+      <class name="com.amazonV1.TestCases.TC_FilterandsortingTest_006">
+        <methods>
+          <include name="sortproduct"/>
+          <include name="applyingFiltersANDsort"/>
+          <include name="setup"/>
+          <include name="filteringProduct"/>
+        </methods>
+      </class> <!-- com.amazonV1.TestCases.TC_FilterandsortingTest_006 -->
+      <class name="com.amazonV1.TestCases.TC_ProductDisplayedVerification_005">
+        <methods>
+          <include name="sortproduct"/>
+          <include name="setup"/>
+          <include name="RightProductDisplayed"/>
+        </methods>
+      </class> <!-- com.amazonV1.TestCases.TC_ProductDisplayedVerification_005 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [AMAZON] -->

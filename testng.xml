@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AMAZON">
+<listeners>
+		<listener class-name="com.amazonV1.utilities.Reporting" />
+	</listeners>
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"></parameter>
+  <classes>
+  <class name="com.amazonV1.TestCases.TC_HOMEPAGEMODULES_001"></class>
+  <class name="com.amazonV1.TestCases.TC_ReguserLogin_002"></class>
+  <!--class name="com.amazonV1.TestCases.TC_AccCreatingPart1_001"></class>-->
+    <!--class name="com.amazonV1.TestCases.TC_AccCreationpart2_001"></class>-->
+     <class name="com.amazonV1.TestCases.TC_LoginwithWORNGcredentials_003"></class>
+       <class name="com.amazonV1.TestCases.TC_SearcgBoxTest_004"></class>
+       <class name="com.amazonV1.TestCases.TC_ProductDisplayedVerification_005"></class>
+      <class name="com.amazonV1.TestCases.TC_FilterandsortingTest_006"></class>
+       <class name="com.amazonV1.TestCases.TC_AddProductTOcartTest_007"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

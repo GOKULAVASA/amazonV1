@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-07T14:02:45 IST" name="AMAZON" finished-at="2023-09-07T14:06:00 IST" duration-ms="194616">
+    <groups>
+    </groups>
+    <test started-at="2023-09-07T14:02:45 IST" name="Test" finished-at="2023-09-07T14:06:00 IST" duration-ms="194616">
+      <class name="com.amazonV1.TestCases.TC_LoginwithWORNGcredentials_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.amazonV1.TestCases.TC_LoginwithWORNGcredentials_003@33ecda92]" started-at="2023-09-07T14:03:02 IST" name="setup" finished-at="2023-09-07T14:03:07 IST" duration-ms="4761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NegativeCredentials()[pri:0, instance:com.amazonV1.TestCases.TC_LoginwithWORNGcredentials_003@33ecda92]" started-at="2023-09-07T14:03:07 IST" name="NegativeCredentials" finished-at="2023-09-07T14:03:16 IST" duration-ms="9633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeCredentials -->
+      </class> <!-- com.amazonV1.TestCases.TC_LoginwithWORNGcredentials_003 -->
+      <class name="com.amazonV1.TestCases.TC_FilterandsortingTest_006">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.amazonV1.TestCases.TC_FilterandsortingTest_006@3feb2dda]" started-at="2023-09-07T14:04:24 IST" name="setup" finished-at="2023-09-07T14:04:28 IST" duration-ms="4711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sortproduct()[pri:0, instance:com.amazonV1.TestCases.TC_FilterandsortingTest_006@3feb2dda]" started-at="2023-09-07T14:04:28 IST" name="sortproduct" finished-at="2023-09-07T14:04:59 IST" duration-ms="31179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortproduct -->
+        <test-method signature="applyingFiltersANDsort()[pri:1, instance:com.amazonV1.TestCases.TC_FilterandsortingTest_006@3feb2dda]" started-at="2023-09-07T14:04:59 IST" name="applyingFiltersANDsort" finished-at="2023-09-07T14:05:03 IST" duration-ms="3578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyingFiltersANDsort -->
+        <test-method signature="filteringProduct()[pri:2, instance:com.amazonV1.TestCases.TC_FilterandsortingTest_006@3feb2dda]" started-at="2023-09-07T14:05:03 IST" name="filteringProduct" finished-at="2023-09-07T14:05:19 IST" duration-ms="16145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filteringProduct -->
+      </class> <!-- com.amazonV1.TestCases.TC_FilterandsortingTest_006 -->
+      <class name="com.amazonV1.TestCases.TC_SearcgBoxTest_004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.amazonV1.TestCases.TC_SearcgBoxTest_004@14fc5f04]" started-at="2023-09-07T14:03:16 IST" name="setup" finished-at="2023-09-07T14:03:21 IST" duration-ms="4467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sortproduct()[pri:0, instance:com.amazonV1.TestCases.TC_SearcgBoxTest_004@14fc5f04]" started-at="2023-09-07T14:03:21 IST" name="sortproduct" finished-at="2023-09-07T14:03:40 IST" duration-ms="19448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortproduct -->
+      </class> <!-- com.amazonV1.TestCases.TC_SearcgBoxTest_004 -->
+      <class name="com.amazonV1.TestCases.TC_HOMEPAGEMODULES_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.amazonV1.TestCases.TC_HOMEPAGEMODULES_001@790da477]" started-at="2023-09-07T14:02:46 IST" name="setup" finished-at="2023-09-07T14:02:52 IST" duration-ms="5882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homepagemodulesTest()[pri:0, instance:com.amazonV1.TestCases.TC_HOMEPAGEMODULES_001@790da477]" started-at="2023-09-07T14:02:52 IST" name="homepagemodulesTest" finished-at="2023-09-07T14:02:54 IST" duration-ms="1628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagemodulesTest -->
+      </class> <!-- com.amazonV1.TestCases.TC_HOMEPAGEMODULES_001 -->
+      <class name="com.amazonV1.TestCases.TC_ReguserLogin_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.amazonV1.TestCases.TC_ReguserLogin_002@15888343]" started-at="2023-09-07T14:02:54 IST" name="setup" finished-at="2023-09-07T14:02:58 IST" duration-ms="3988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SignUptest()[pri:0, instance:com.amazonV1.TestCases.TC_ReguserLogin_002@15888343]" started-at="2023-09-07T14:02:58 IST" name="SignUptest" finished-at="2023-09-07T14:03:02 IST" duration-ms="4486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUptest -->
+      </class> <!-- com.amazonV1.TestCases.TC_ReguserLogin_002 -->
+      <class name="com.amazonV1.TestCases.TC_ProductDisplayedVerification_005">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.amazonV1.TestCases.TC_ProductDisplayedVerification_005@6e2829c7]" started-at="2023-09-07T14:03:40 IST" name="setup" finished-at="2023-09-07T14:03:46 IST" duration-ms="5763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sortproduct()[pri:0, instance:com.amazonV1.TestCases.TC_ProductDisplayedVerification_005@6e2829c7]" started-at="2023-09-07T14:03:46 IST" name="sortproduct" finished-at="2023-09-07T14:04:18 IST" duration-ms="32306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortproduct -->
+        <test-method signature="RightProductDisplayed()[pri:1, instance:com.amazonV1.TestCases.TC_ProductDisplayedVerification_005@6e2829c7]" started-at="2023-09-07T14:04:18 IST" name="RightProductDisplayed" finished-at="2023-09-07T14:04:24 IST" duration-ms="5067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RightProductDisplayed -->
+      </class> <!-- com.amazonV1.TestCases.TC_ProductDisplayedVerification_005 -->
+      <class name="com.amazonV1.TestCases.TC_AddProductTOcartTest_007">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.amazonV1.TestCases.TC_AddProductTOcartTest_007@6a8658ff]" started-at="2023-09-07T14:05:19 IST" name="setup" finished-at="2023-09-07T14:05:27 IST" duration-ms="8137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sortproduct()[pri:0, instance:com.amazonV1.TestCases.TC_AddProductTOcartTest_007@6a8658ff]" started-at="2023-09-07T14:05:27 IST" name="sortproduct" finished-at="2023-09-07T14:05:42 IST" duration-ms="14686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortproduct -->
+        <test-method signature="addingtocart()[pri:1, instance:com.amazonV1.TestCases.TC_AddProductTOcartTest_007@6a8658ff]" started-at="2023-09-07T14:05:42 IST" name="addingtocart" finished-at="2023-09-07T14:06:00 IST" duration-ms="18108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingtocart -->
+      </class> <!-- com.amazonV1.TestCases.TC_AddProductTOcartTest_007 -->
+    </test> <!-- Test -->
+  </suite> <!-- AMAZON -->
+</testng-results>
